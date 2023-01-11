@@ -1,5 +1,21 @@
 {
-  "name": "solid-template",
+  "name": "solidstart-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/israelias/solidstart-boilerplate/issues"
+  },
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Joem Elias Sanez",
+    "email": "israelias.js@gmail.com"
+  },
+  "description": "SolidStart template for Vercel with ESLint",
+  "homepage": "https://github.com/israelias/solidstart-boilerplate#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:israelias/solidstart-boilerplate.git"
+  },
   "scripts": {
     "dev": "solid-start dev",
     "build": "solid-start build",
@@ -20,6 +36,7 @@
     "postcss": "^8.4.18",
     "prettier": "^2.7.1",
     "solid-start-node": "^0.2.0",
+    "solid-start-vercel": "^0.2.11",
     "typescript": "^4.8.4",
     "vite": "^3.1.8"
   },
