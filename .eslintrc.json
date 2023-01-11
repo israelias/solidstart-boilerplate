@@ -1,11 +1,17 @@
 {
+  /**
+   * Check if env should be changed for your target environment
+   * https://eslint.org/docs/latest/user-guide/configuring/language-options#specifying-environments
+   */
   "env": { "browser": true },
   "extends": [
     "eslint:recommended",
     "airbnb-base",
     "airbnb-typescript/base",
     "plugin:@typescript-eslint/recommended",
+    /* recommended-requiring-type-checking may be dropped depending on friction */
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    /* strict may be dropped depending on friction */
     "plugin:@typescript-eslint/strict",
     "plugin:solid/typescript",
     "plugin:prettier/recommended"
@@ -15,6 +21,7 @@
   "plugins": ["@typescript-eslint", "solid"],
   "rules": {
     "import/extensions": ["error", "ignorePackages", { "": "never" }],
+    /* "endOfLine": "auto" is added to accommodate Windows os */
     "prettier/prettier": ["error", { "endOfLine": "auto" }]
   }
 }
