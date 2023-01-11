@@ -8,6 +8,7 @@
     "jsxImportSource": "solid-js",
     "jsx": "preserve",
     "strict": true,
+    "noEmit": true,
     "types": ["solid-start/env"],
     "baseUrl": "./",
     "paths": {
