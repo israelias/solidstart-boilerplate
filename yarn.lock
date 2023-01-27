@@ -3584,7 +3584,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -5155,7 +5155,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -5232,6 +5232,20 @@ __metadata:
   bin:
     rollup: dist/bin/rollup
   checksum: 6a2bf167b3587d4df709b37d149ad0300692cc5deb510f89ac7bdc77c8738c9546ae3de9322b0968e1ed2b0e984571f5f55aae28fa7de4cfcb1bc5402a4e2be6
+  languageName: node
+  linkType: hard
+
+"rollup@npm:^3.10.0":
+  version: 3.11.0
+  resolution: "rollup@npm:3.11.0"
+  dependencies:
+    fsevents: ~2.3.2
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    rollup: dist/bin/rollup
+  checksum: ba9fe9ec8926195c6d4c91c08888fd1be01651dd79db4cff1c3fe8514f3e65be06beb8c6b087ea4145edb2542743fff20e99b4e919f4e2fa45438ee09498ad21
   languageName: node
   linkType: hard
 
@@ -5450,19 +5464,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"solid-start-vercel@npm:^0.2.11":
-  version: 0.2.11
-  resolution: "solid-start-vercel@npm:0.2.11"
+"solid-start-vercel@npm:^0.2.16":
+  version: 0.2.16
+  resolution: "solid-start-vercel@npm:0.2.16"
   dependencies:
     "@rollup/plugin-commonjs": ^24.0.0
     "@rollup/plugin-json": ^6.0.0
     "@rollup/plugin-node-resolve": ^15.0.1
-    rollup: ^2.79.1
-    terser: ^5.15.1
+    rollup: ^3.10.0
+    terser: ^5.16.1
   peerDependencies:
     solid-start: "*"
     vite: "*"
-  checksum: 8b56d554fb298319f9b84a3b99b24fecb2a85ec034d211affd4d84c9be4e028c904b1c619fa1f694675382ff8362c0dd803752b78a1bed1bdd977ebf3da77bd6
+  checksum: a8756235c7be57f1918bafea3c122e5fbe7625651dc1cc869513a2ffcc9938f3e3b7f3e18a3c97acbae1e634a1137aa099c50e0591712730498b32c6f96243b1
   languageName: node
   linkType: hard
 
@@ -5536,7 +5550,7 @@ __metadata:
     solid-js: ^1.6.2
     solid-start: ^0.2.0
     solid-start-node: ^0.2.0
-    solid-start-vercel: ^0.2.11
+    solid-start-vercel: ^0.2.16
     typescript: ^4.8.4
     undici: ^5.11.0
     vite: ^3.1.8
@@ -5710,7 +5724,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser@npm:^5.15.1":
+"terser@npm:^5.15.1, terser@npm:^5.16.1":
   version: 5.16.1
   resolution: "terser@npm:5.16.1"
   dependencies:
@@ -5839,7 +5853,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.8.4#~builtin<compat/typescript>":
   version: 4.9.4
-  resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"
+  resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=a1c5e5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
